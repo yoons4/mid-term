@@ -1,6 +1,8 @@
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: orange;
+    background-image: url(../images/FG-Five-Guys-Story-Hero.jpg);
 }
 
 a {
@@ -8,9 +10,9 @@ a {
 }
 
 table{
-    background-color: green;
-    border: 1px solid black;
-    width: 100%;
+    background-color: lightblue;
+    border: 2px solid black;
+    align: "center";
 }
 
 h1{
@@ -18,9 +20,24 @@ h1{
     font-family:"Cooper";
     text-align:center;
     color:red;
+    border: 2px solid red;
+    background-color: yellow;
 }
 
 .listGet{
-    margin: auto;
+    border: 2px solid black;
+    margin: 40px;
+    font-size: 30px;
+    font-style: italic;
 }
+
+img{
+    height: 400px;
+    width: 400px;
+}
+
+.makeLong{
+    width:100%;
+}
+
 

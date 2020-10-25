@@ -2,9 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Burgers</title>
+    <link href = "../stylesheets/design.css" rel = "stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </head>
 <body>
-
+    <h1>Types of Hamburgers</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="navbar-brand">Menu</div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">Home</span></a>
+                <a class="nav-item nav-link" href="burgers.html">Burger</a>
+                <a class="nav-item nav-link" href="dog.html">Dogs</a>
+                <a class="nav-item nav-link" href="fries.html">Fries</a>
+                <a class="nav-item nav-link" href="milkshakes.html">Milkshakes</a>
+                <a class="nav-item nav-link" href="sandwiches.html">Sandwiches</a>
+                <a class="nav-item nav-link" href="form.html">Order Get</a>
+            </div>
+        </div>
+    </nav>
+    <table align="center" class = "table table-bordered">
+        <thead>
+        <tr>
+            <th scope="col" class = "listGet">Menu</th>
+            <th scope="col" class = "listGet">Picture</th>
+            <th scope="col" class = "listGet">Calories</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class = "listGet">Hamburger</td>
+            <td class = "listGet"><img src = "../images/hamburger.jpg" alt = "Hamburger"></td>
+            <td class = "listGet">840 Calories</td>
+        </tr>
+        <tr>
+            <td class = "listGet">Cheeseburger</td>
+            <td class = "listGet"><img src = "../images/cheeseBurger.jpg" alt = "Hamburger"></td>
+            <td class = "listGet">980 Calories</td>
+        </tr>
+        <tr>
+            <td class = "listGet">Bacon burger</td>
+            <td class = "listGet"><img src = "../images/baconBurger.jpeg" alt = "Hamburger"></td>
+            <td class = "listGet">920 Calories</td>
+        </tr>
+        <tr>
+            <td class = "listGet">Bacon Cheeseburger</td>
+            <td class = "listGet"><img src = "../images/baconCheeseBurger.jpeg" alt = "Hamburger"></td>
+            <td class = "listGet">1060 Calories</td>
+        </tr>
+        </tbody>
+    </table>
 </body>
 </html>
