@@ -28,15 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a65f08d-ba39-4481-938f-d7cd09cabd75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/restaurant/burgers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/restaurant/dog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/restaurant/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/restaurant/fries.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/restaurant/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/restaurant/milkshakes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/restaurant/sandwiches.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/stylesheets/design.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/title.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/restaurant/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/restaurant/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/design.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/design.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +85,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
@@ -105,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603600407829</updated>
-      <workItem from="1603600409231" duration="2798000" />
+      <workItem from="1603600409231" duration="6880000" />
     </task>
     <servers />
   </component>
@@ -124,21 +124,21 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="699" height="207" key="GridCell.Tab.0.bottom" timestamp="1603601763674">
+    <state width="699" height="207" key="GridCell.Tab.0.bottom" timestamp="1603613468440">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state width="699" height="207" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1603601763674" />
-    <state width="699" height="207" key="GridCell.Tab.0.center" timestamp="1603601763672">
+    <state width="699" height="207" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1603613468440" />
+    <state width="699" height="207" key="GridCell.Tab.0.center" timestamp="1603613468437">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state width="699" height="207" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1603601763672" />
-    <state width="699" height="207" key="GridCell.Tab.0.left" timestamp="1603601763670">
+    <state width="699" height="207" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1603613468437" />
+    <state width="699" height="207" key="GridCell.Tab.0.left" timestamp="1603613468436">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state width="699" height="207" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1603601763670" />
-    <state width="699" height="207" key="GridCell.Tab.0.right" timestamp="1603601763673">
+    <state width="699" height="207" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1603613468436" />
+    <state width="699" height="207" key="GridCell.Tab.0.right" timestamp="1603613468439">
       <screen x="0" y="23" width="1440" height="805" />
     </state>
-    <state width="699" height="207" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1603601763673" />
+    <state width="699" height="207" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1603613468439" />
   </component>
 </project>
