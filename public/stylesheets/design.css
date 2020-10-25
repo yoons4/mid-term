@@ -37,6 +37,7 @@ img{
 }
 
 .makeLong{
+    border: 5px solid green;
     width:100%;
 }
 
