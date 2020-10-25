@@ -6,21 +6,3 @@ body {
 a {
   color: #00B7FF;
 }
-
-table{
-  background-color: green;
-  border: 1px solid black;
-  width: 100%;
-}
-
-h1{
-  font-size: 20px;
-  font-family:"Cooper";
-  text-align:center;
-  color:red;
-}
-
-.listGet{
-  margin: auto;
-}
-
