@@ -28,9 +28,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a65f08d-ba39-4481-938f-d7cd09cabd75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/calculations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/guessingGame.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +93,13 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -104,7 +111,12 @@
       <workItem from="1603600409231" duration="20591000" />
       <workItem from="1603669260826" duration="1255000" />
       <workItem from="1603670643727" duration="1443000" />
-      <workItem from="1603734199736" duration="297000" />
+      <workItem from="1603734199736" duration="1530000" />
+      <workItem from="1603920562622" duration="4467000" />
+      <workItem from="1603989463800" duration="108000" />
+      <workItem from="1604015548968" duration="53000" />
+      <workItem from="1604015660380" duration="20000" />
+      <workItem from="1604015868767" duration="5814000" />
     </task>
     <servers />
   </component>
@@ -132,25 +144,29 @@
       <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="447" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.805@0.23.1440.805" timestamp="1603614257664" />
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom" timestamp="1603711173909">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1603956148943">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603711173909" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603956148943" />
     <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1603670903395" />
-    <state width="1398" height="206" key="GridCell.Tab.0.center" timestamp="1603711173908">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1603956148942">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603711173908" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603956148942" />
     <state width="1398" height="206" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1603670903395" />
-    <state width="1398" height="206" key="GridCell.Tab.0.left" timestamp="1603711173907">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1603956148941">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603711173907" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603956148941" />
     <state width="1398" height="206" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1603670903394" />
-    <state width="1398" height="206" key="GridCell.Tab.0.right" timestamp="1603711173908">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1603956148943">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="206" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603711173908" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603956148943" />
     <state width="1398" height="206" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1603670903395" />
+    <state x="226" y="226" width="1043" height="630" key="dock-window-1" timestamp="1603923090494">
+      <screen x="0" y="23" width="1440" height="805" />
+    </state>
+    <state x="226" y="226" width="1043" height="630" key="dock-window-1/0.23.1440.805@0.23.1440.805" timestamp="1603923090494" />
   </component>
 </project>
