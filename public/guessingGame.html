@@ -3,13 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Guessing Game</title>
     <style>
-        .firstLabel{
+        h1{
+            border: darkred solid 5px;
+            background-color: hotpink;
+            color: purple;
+            padding: 5px;
+        }
+        button{
             color: red;
             background-color:yellow;
             font-size: 24px;
@@ -17,20 +20,12 @@
             width: auto;
             height: auto;
         }
-        .secondLabel{
-            background-color:blue;
-            color: lightpink;
-            font-size: 24px;
-            font-family: "Noto Sans Old Italiic";
-            width: auto;
-            height: auto;
-        }
-        .resultGet{
-            color: hotpink;
+        label{
+            color: white;
             font-size: 24px;
         }
-        body{
-            background-image: url(../public/images/CheeseDogs.jpg);
+        .getPicture{
+            background-image: url("images/FG-Five-Guys-Story-Hero.jpg");
         }
         p{
             font-family: "Arial Rounded MT Bold";
@@ -41,14 +36,17 @@
             let startingNumber = parseInt(document.getElementById("startNumber").value);
             let endingNumber = parseInt(document.getElementById("endNumber").value);
             let rightNumber = Math.floor(Math.random() * (endingNumber - startingNumber + 1)) + startingNumber;
+            let messageGet = document.getElementById("message");
             let triesLeft = 3;
             if(startingNumber > endingNumber){
-                console.log("You pick wrong numbers. Please, try again because a starting " +
-                    "number is supposed to smaller than a ending number.");
+                messageGet = "You pick wrong numbers. Please, try again because a starting " +
+                    "number is supposed to smaller than a ending number.";
+                window.alert(messageGet);
             }
             else{
                 while(triesLeft > 0){
                     let inputNumber = prompt("Please type the number.");
+                    triesLeft -= 1;
                     if(inputNumber >= startingNumber && inputNumber <= endingNumber){
                         if(inputNumber == rightNumber){
                             break;
@@ -56,60 +54,75 @@
                         else{
                             let differenceNumber = Math.abs(inputNumber - rightNumber);
                             if(inputNumber > rightNumber){
-                                console.log("Your number is too big.");
+                                messageGet = "Your number is too big.";
+                                alert(messageGet);
                             }
                             else{
-                                console.log("Your number is too small.");
+                                messageGet = "Your number is too small.";
+                                alert(messageGet);
                             }
 
                             if(differenceNumber === 1){
-                                console.log("Your guess number is burning.");
+                                messageGet = "Your guess number is burning.";
+                                alert(messageGet);
                             }
                             else if(differenceNumber === 2 || differenceNumber === 3){
-                                console.log("Your guess number is hot.");
+                                messageGet = "Your guess number is hot.";
+                                alert(messageGet);
                             }
                             else if(differenceNumber === 4 || differenceNumber === 5){
-                                console.log("Your guess number is warm.");
+                                messageGet = "Your guess number is warm.";
+                                alert(messageGet);
                             }
                             else if(differenceNumber === 6 || differenceNumber === 7){
-                                console.log("Your guess number is cold.");
+                                messageGet = "Your guess number is cold.";
+                                alert(messageGet);
                             }
                             else{
-                                console.log("Your number is too far away.");
+                                messageGet = "Your guess number is far away.";
+                                alert(messageGet);
                             }
                         }
                     }
                     else{
-                        console.log("Please enter the number that is between starting and ending numbers");
+                        messageGet = "Please enter the number that is between starting and ending numbers";
+                        alert(messageGet);
                     }
-                    console.log(triesLeft + " tries left.");
-                    triesLeft -= 1;
+                    messageGet = "So, " + triesLeft + " tries left.";
+                    alert(messageGet);
                 }
 
                 if(triesLeft === 0){
-                    console.log("You have lost the game.");
+                    messageGet = "You have lost the game!!";
+                    alert(messageGet);
                 }
                 else{
-                    console.log("You have won the game.");
+                    messageGet = "You have won the game!!";
+                    alert(messageGet);
                 }
             }
         }
     </script>
 </head>
-<body>
-    <div class = "resultGet">
+<body class = "getPicture">
+    <h1>Guessing Game</h1>
+    <div style= "background-color:lightpink">
         <p>Select the start number.</p>
-        <label class = "firstLabel" for = "startNumber">Enter the starting number.</label>
+        <label for = "startNumber">Enter the starting number.</label>
         <input type="number" id="startNumber" name="startNumber" placeholder = "0">
         <br>
         <p>Select the end number.</p>
-        <label class = "secondLabel" for = "endNumber">Enter the ending number.</label>
+        <label for = "endNumber">Enter the ending number.</label>
         <input type = "number" id = "endNumber" name="endNumber" placeholder = "0">
-
-        <button type="submit" id="makeGuesses"></button>
+        <br>
+        <button type="submit" id = "makeGuesses">Guess the number!!!!</button>
     </div>
+
+    <div id = "message">
+
+    </div>
+    <script>
+        document.getElementById("makeGuesses").addEventListener("click", guessGame);
+    </script>
 </body>
-<script>
-    document.getElementById("makeGuesses").addEventListener("click", guessGame);
-</script>
 </html>
