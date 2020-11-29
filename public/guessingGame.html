@@ -33,13 +33,20 @@
     </style>
     <script>
         function guessGame(){
-            let startingNumber = parseInt(document.getElementById("startNumber").value);
-            let endingNumber = parseInt(document.getElementById("endNumber").value);
+            var startingNumber = parseInt(document.getElementById("startNumber").value);
+            var endingNumber = parseInt(document.getElementById("endNumber").value);
             let rightNumber = Math.floor(Math.random() * (endingNumber - startingNumber + 1)) + startingNumber;
             let messageGet = document.getElementById("message");
             let triesLeft = 3;
-            if(startingNumber > endingNumber){
-                messageGet = "You pick wrong numbers. Please, try again because a starting " +
+            let introductionGet = prompt("Who are you?");
+            alert(introductionGet);
+
+            if(isNaN(startingNumber) || isNaN(endingNumber)){
+                messageGet = "Please enter both starting and ending numbers.";
+                alert(messageGet);
+            }
+            else if(startingNumber > endingNumber){
+                messageGet = "You pick wrong numbers. Please, try again. A starting " +
                     "number is supposed to smaller than a ending number.";
                 alert(messageGet);
             }
@@ -63,19 +70,19 @@
                             }
 
                             if(differenceNumber === 1){
-                                messageGet = "Your guess number is burning.";
+                                messageGet = "Your guess number is burning. You are 1  away from the answer.";
                                 alert(messageGet);
                             }
                             else if(differenceNumber === 2 || differenceNumber === 3){
-                                messageGet = "Your guess number is hot.";
+                                messageGet = "Your guess number is hot. You are 2-3 away from the answer";
                                 alert(messageGet);
                             }
                             else if(differenceNumber === 4 || differenceNumber === 5){
-                                messageGet = "Your guess number is warm.";
+                                messageGet = "Your guess number is warm. You are 4-5 away from the answer.";
                                 alert(messageGet);
                             }
                             else if(differenceNumber === 6 || differenceNumber === 7){
-                                messageGet = "Your guess number is cold.";
+                                messageGet = "Your guess number is cold. You are 6-7 away from the answer.";
                                 alert(messageGet);
                             }
                             else{
@@ -100,24 +107,24 @@
                     messageGet = "You have won the game!!";
                     alert(messageGet);
                 }
+                alert("The answer: " + rightNumber);
             }
         }
     </script>
 </head>
 <body class = "getPicture">
     <h1>Guessing Game</h1>
-    <div style= "background-color:lightpink">
+    <div style= "background-color:lightpink" class="form-group">
         <p>Select the start number.</p>
-        <label for = "startNumber">Enter the starting number.</label>
+        <label for = "startNumber">Enter the starting number:</label>
         <input type="number" id="startNumber" name="startNumber" placeholder = "0">
         <br>
         <p>Select the end number.</p>
-        <label for = "endNumber">Enter the ending number.</label>
+        <label for = "endNumber">Enter the ending number:</label>
         <input type = "number" id = "endNumber" name="endNumber" placeholder = "0">
         <br>
-        <button type="submit" id = "makeGuesses">Guess the number!!!!</button>
+        <button type="submit" id = "makeGuesses" class="btn btn-primary">Guess the number!!!!</button>
     </div>
-
     <div id = "message">
 
     </div>

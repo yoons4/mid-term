@@ -28,9 +28,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a65f08d-ba39-4481-938f-d7cd09cabd75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/newMac/friends.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/newMac/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/newMac/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/guessingGame.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/guessingGame.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +75,7 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.19.1" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/restaurant/stylesheets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -87,19 +88,13 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/restaurant/stylesheets" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/newMac" />
+      <recent name="$PROJECT_DIR$/public/restaurant/stylesheets" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -117,7 +112,22 @@
       <workItem from="1603989463800" duration="108000" />
       <workItem from="1604015548968" duration="53000" />
       <workItem from="1604015660380" duration="20000" />
-      <workItem from="1604015868767" duration="11999000" />
+      <workItem from="1604015868767" duration="12407000" />
+      <workItem from="1604083053158" duration="4304000" />
+      <workItem from="1604167978340" duration="252000" />
+      <workItem from="1604529427624" duration="1176000" />
+      <workItem from="1605473673313" duration="21000" />
+      <workItem from="1605666439867" duration="21000" />
+      <workItem from="1606007387108" duration="123000" />
+      <workItem from="1606020418955" duration="2816000" />
+      <workItem from="1606464134155" duration="39000" />
+      <workItem from="1606464420667" duration="429000" />
+      <workItem from="1606465703065" duration="434000" />
+      <workItem from="1606598212314" duration="98000" />
+      <workItem from="1606598328325" duration="35000" />
+      <workItem from="1606606941321" duration="34000" />
+      <workItem from="1606623967952" duration="744000" />
+      <workItem from="1606625954369" duration="403000" />
     </task>
     <servers />
   </component>
@@ -145,25 +155,25 @@
       <screen x="0" y="23" width="1440" height="805" />
     </state>
     <state x="447" y="189" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.805@0.23.1440.805" timestamp="1603614257664" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1604049821272">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1606168768194">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604049821272" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1606168768194" />
     <state width="1398" height="206" key="GridCell.Tab.0.bottom/0.23.1440.805@0.23.1440.805" timestamp="1603670903395" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1604049821270">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1606168768189">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604049821270" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1606168768189" />
     <state width="1398" height="206" key="GridCell.Tab.0.center/0.23.1440.805@0.23.1440.805" timestamp="1603670903395" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1604049821270">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1606168768187">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604049821270" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1606168768187" />
     <state width="1398" height="206" key="GridCell.Tab.0.left/0.23.1440.805@0.23.1440.805" timestamp="1603670903394" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1604049821271">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1606168768192">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604049821271" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1606168768192" />
     <state width="1398" height="206" key="GridCell.Tab.0.right/0.23.1440.805@0.23.1440.805" timestamp="1603670903395" />
     <state x="226" y="226" width="1043" height="630" key="dock-window-1" timestamp="1603923090494">
       <screen x="0" y="23" width="1440" height="805" />
